@@ -1,0 +1,39 @@
+body{
+  font-family: sans-serif;
+}
+ul{
+  /*outline: 1px solid yellow; */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  line-height: 30px;
+}
+li{
+  /*outline: 1px solid red; */
+  background: #f5f5f0;
+}
+/* los navegadores reconocen 4 esatdos de los enlaces  :love/hate lik visited hover active */
+a{
+/*  outline: 1px solid green; */
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding-left: 8px;
+  }
+a:hover{
+background: #e0e0d1;
+}
+a:active{
+  background: #333;
+  color: #fff;
+}
+ul li:first-child{
+  background: #f9a91a;
+}
+ul li:first-child a{
+color: #fff;
+}
+ul li:first-child a:active{
+color: #fff;
+}
